@@ -38,4 +38,5 @@ jobs:
 
     # Execute all unit tests in the solution
     - name: Execute unit tests
-      run: dotnet test
+      run: ~/.nuget/packages/xunit.runner.console/2.5.1/tools/net481/xunit.console.exe Test/bin/Debug/Test.dll
+
