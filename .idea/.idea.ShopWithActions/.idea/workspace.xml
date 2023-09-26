@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9a1d301-1451-475c-9715-62c61ef44504" name="Changes" comment="">
+    <list default="true" id="b9a1d301-1451-475c-9715-62c61ef44504" name="Changes" comment="docs: changed bin">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ShopWithActions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShopWithActions/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shop/Shop.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Shop/Shop.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/Test.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Test.csproj" afterDir="false" />
@@ -28,7 +28,7 @@
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="Toolset" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -53,7 +53,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "RiderUnitTestingPageId",
+    "settings.editor.selected.configurable": "RiderNuGetOptionsPageId",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -64,7 +64,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected=".NET Project.Test">
     <configuration name="Test" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -83,8 +83,14 @@
         <option name="Build" default="false" projectName="Test" projectPath="file://$PROJECT_DIR$/Test/Test.csproj" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue=".NET Project.Test" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\andan\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b9a1d301-1451-475c-9715-62c61ef44504" name="Changes" comment="" />
@@ -95,7 +101,7 @@
       <workItem from="1695326783318" duration="2767000" />
       <workItem from="1695329621906" duration="2621000" />
       <workItem from="1695727613799" duration="7074000" />
-      <workItem from="1695740281206" duration="1096000" />
+      <workItem from="1695740281206" duration="7581000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -129,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695739888339</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="docs: changed bin">
+      <option name="closed" value="true" />
+      <created>1695741434810</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695741434810</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +167,8 @@
     <MESSAGE value="doc: added docs" />
     <MESSAGE value="feat: made unit tests" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
+    <MESSAGE value="docs: changed bin" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: changed bin" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
