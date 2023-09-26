@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="..\packages\xunit.runner.console.2.5.1\build\xunit.runner.console.props" Condition="Exists('..\packages\xunit.runner.console.2.5.1\build\xunit.runner.console.props')" />
     <Import Project="..\packages\xunit.core.2.5.1\build\xunit.core.props" Condition="Exists('..\packages\xunit.core.2.5.1\build\xunit.core.props')" />
     <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
     <PropertyGroup>
@@ -9,7 +10,7 @@
         <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
         <OutputType>Library</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>Test</RootNamespace>
+        <RootNamespace>Test.Test</RootNamespace>
         <AssemblyName>Test</AssemblyName>
         <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
@@ -63,7 +64,7 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Tests.cs" />
+        <Compile Include="Test.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>
@@ -73,6 +74,7 @@
       </ProjectReference>
     </ItemGroup>
     <ItemGroup>
+      <None Include="App.config" />
       <None Include="packages.config" />
     </ItemGroup>
     <ItemGroup>
@@ -86,6 +88,7 @@
       </PropertyGroup>
       <Error Condition="!Exists('..\packages\xunit.core.2.5.1\build\xunit.core.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\xunit.core.2.5.1\build\xunit.core.props'))" />
       <Error Condition="!Exists('..\packages\xunit.core.2.5.1\build\xunit.core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\xunit.core.2.5.1\build\xunit.core.targets'))" />
+      <Error Condition="!Exists('..\packages\xunit.runner.console.2.5.1\build\xunit.runner.console.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\xunit.runner.console.2.5.1\build\xunit.runner.console.props'))" />
     </Target>
     <Import Project="..\packages\xunit.core.2.5.1\build\xunit.core.targets" Condition="Exists('..\packages\xunit.core.2.5.1\build\xunit.core.targets')" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

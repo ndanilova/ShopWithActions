@@ -2,10 +2,9 @@
 using Shop.Exceptions;
 using Xunit;
 
-
-namespace Test
+namespace Test.Test
 {
-    public class ShoppingServiceTest
+    public class Test
     {
         private readonly ShopManager _shopManager = new ShopManager();
 
