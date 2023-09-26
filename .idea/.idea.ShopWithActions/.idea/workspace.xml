@@ -7,11 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9a1d301-1451-475c-9715-62c61ef44504" name="Changes" comment="docs: changed bin">
+    <list default="true" id="b9a1d301-1451-475c-9715-62c61ef44504" name="Changes" comment="fixes">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ShopWithActions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ShopWithActions/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shop/Shop.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Shop/Shop.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Test.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Test.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/Test/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTest1.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +20,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/GlobalUsings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Shop/Entities/BatchOfGoods.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Shop/Exceptions/BatchOfGoodsException.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Shop/packages.config" root0="SKIP_HIGHLIGHTING" />
@@ -101,7 +100,7 @@
       <workItem from="1695326783318" duration="2767000" />
       <workItem from="1695329621906" duration="2621000" />
       <workItem from="1695727613799" duration="7074000" />
-      <workItem from="1695740281206" duration="7581000" />
+      <workItem from="1695740281206" duration="8018000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -143,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695741434810</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fixes">
+      <option name="closed" value="true" />
+      <created>1695751522499</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695751522499</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +175,8 @@
     <MESSAGE value="feat: made unit tests" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="docs: changed bin" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs: changed bin" />
+    <MESSAGE value="fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
